@@ -3,7 +3,7 @@
 # Pseudocode
 # Create an input code for the users to add a word
 Users_input = input("Please write your word here:")
-print (Users_input)
 # Display the users word
+print ("Your inputted word is,", Users_input)
 # Display characters at even index numbers
-# Print the result
+# Print the resultta
