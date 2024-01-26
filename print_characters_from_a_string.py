@@ -4,6 +4,11 @@
 # Create an input code for the users to add a word
 Users_input = input("Please write your word here:")
 # Display the users word
-print ("Your inputted word is,", Users_input)
+print ("Original String is,", Users_input)
 # Display characters at even index numbers
-# Print the resultta
+result = ""
+for i in range(0, len(Users_input), 2):
+    result += Users_input[i]
+
+# Print the result
+    print("Printing only even index chars", result)
